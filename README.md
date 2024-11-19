@@ -25,7 +25,7 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
 
 ## Repository Structure
 ### Folder: data_restructuring_and_analysis
-* **File: '_performance_history_data_restructuring.ipynb_'**
+* **File: '_nyphil_performance_history_data_restructuring.ipynb_'**
     * Functions:
         * Transforms the performance history JSON data from the New York Philharmonics to be structured around individual performances of orchestral works instead of unique programs.
         * Counts the number of new works and new composers performed in each season of the New York Philharmonic.
@@ -34,7 +34,7 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
 * **File: '_nyphil_expansive_programming_data_by_season.csv_'**
     * Counts of new works and new composers performed by the New York Philharmonic from 1842-2023, as well as basic descriptive statistics for this data.
     * See "Data Structure" section for variables and their definitions.
-* **File: '_programming_analysis.ipynb_'**
+* **File: '_nyphil_programming_analysis.ipynb_'**
     * Plots data from 'nyphil_expansive_programming_data_by_season.csv' using matplotlib.
 
 ### Folder: nyphilarchive_performance_history
