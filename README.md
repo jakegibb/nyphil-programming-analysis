@@ -36,6 +36,8 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
     * See "Data Structure" section for variables and their definitions.
 * **File: '_nyphil_programming_analysis.ipynb_'**
     * Plots data from 'nyphil_expansive_programming_data_by_season.csv' using matplotlib.
+ * **File: '_nyphil_proramming_vizzu.ipynb_'**
+    * Uses the ipyvizzu library to create an interactive visualization of new work and composer data.
 
 ### Folder: nyphilarchive_performance_history
 * [GitHub repository](https://github.com/nyphilarchive/PerformanceHistory) cloned on 2024-09-10 from the New York Philharmonic Archives.
@@ -60,6 +62,7 @@ All data has been processed using Python in Jupyter Notebooks. The following lib
 * [pandas](https://pandas.pydata.org/)
 * [matplotlib](https://matplotlib.org/)
 * [scikit-learn](https://scikit-learn.org/stable/)
+* [ipyvizzu](https://ipyvizzu.vizzuhq.com/latest/)
 
 ## Data Structure: New York Philharmonic JSON Data
 
