@@ -62,6 +62,7 @@ All data has been processed using Python in Jupyter Notebooks. The following lib
 * [pandas](https://pandas.pydata.org/)
 * [matplotlib](https://matplotlib.org/)
 * [scikit-learn](https://scikit-learn.org/stable/)
+* [ipyvizzu](https://ipyvizzu.vizzuhq.com/latest/)
 
 ## Data Structure: New York Philharmonic JSON Data
 
