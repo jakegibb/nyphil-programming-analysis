@@ -23,8 +23,17 @@ September 2024 – December 2024
 Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Composers [Dataset]. Git Hub. https://github.com/jakegibb/nyphil-programming-analysis
 
 
-## Repository Structure
+## Executing the Repository
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakegibb/nyphil-programming-analysis/HEAD)
+
+A binder environment has been created for this project. Launch the project in binder to run the project's Jupyter Notebooks in an isolated computing environment.
+
+
+Additionally, each notebook has an embed link to open the notebook in Google Colab if that is a preferred environment. However, to run a notebook in Colab, you will need to download the appropriate data source and at it to Colab's "content" folder.
+
+
+## Repository Structure
+
 ### Folder: data_restructuring_and_analysis
 * **File: '_nyphil_performance_history_data_restructuring.ipynb_'**
     * Functions:
@@ -44,9 +53,8 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
 * [GitHub repository](https://github.com/nyphilarchive/PerformanceHistory) cloned on 2024-09-10 from the New York Philharmonic Archives.
 * Please see the README file enclosed in the folder for more information regarding the repository's structure, data structure, variable definitions, and usage guidelines.
 
-## Methodology
+## Data Processing Methodology
 
-### Data Processing
 JSON data from the New York Philharmonic Archives is structured around unique programs performed by the orchestra. To analyze the frequency of "expansive programming" decisions, the data needs to be restructured around individual performances of single works.
 
 The following steps are used to transform the performance history data:
@@ -56,14 +64,18 @@ The following steps are used to transform the performance history data:
 3. The number of total and works and composers performed on each season are counted.
 4. Copies of the dataset are filtered for only the first performance of a unique work or composer. These subsets are then grouped by season and counted.
 5. Descriptive statistics are aggregated in a single DataFrame and exported to CSV.
+6. Secondary Jupyter Notebooks import the CSV data and run statistical tests and create visualizations.
 
-### Software and Packages
+## Software and Packages
 
-All data has been processed using Python in Jupyter Notebooks. The following libraries and packages (beyond the standard Python library) were used:
+Jupyter Notebooks for this project were written using VSCode and Python 3.12.6. The following libraries and packages (beyond the standard Python library) were used:
 * [pandas](https://pandas.pydata.org/)
 * [matplotlib](https://matplotlib.org/)
 * [scikit-learn](https://scikit-learn.org/stable/)
+* [statsmodels](https://www.statsmodels.org/stable/index.html)
 * [ipyvizzu](https://ipyvizzu.vizzuhq.com/latest/)
+
+A "requirements.txt" file is included in the repository for ease of reproducing the Python environment.
 
 ## Data Structure: New York Philharmonic JSON Data
 
@@ -192,4 +204,4 @@ The following is a list of variables and definitions for each field in the resul
 ## License
  This project is released under a [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
 
- The [New York Philharmonic](https://github.com/nyphilarchive/PerformanceHistory) data underlying this analysis was also released under the same [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license. Please see the usage guidelines in dataset's original README for more information and usage guidelines. 
+ The [New York Philharmonic](https://github.com/nyphilarchive/PerformanceHistory) data underlying this analysis was also released under the same [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license. Please see the usage guidelines in dataset's original README (located in the "nyphilarchive_performance_history" folder) for more information. 
