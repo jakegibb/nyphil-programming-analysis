@@ -64,7 +64,7 @@ The following steps are used to transform the performance history data:
 3. The total number of works and composers performed in each season are counted.
 4. Copies of the dataset are filtered for only the first performance of a unique work or composer. These subsets are then grouped by season and counted.
 5. Descriptive statistics are aggregated in a single DataFrame and exported to CSV.
-6. Secondary Jupyter Notebooks import the CSV data and run statistical tests and create visualizations.
+6. Secondary Jupyter Notebooks import the CSV data, run statistical tests, and create visualizations.
 
 ## Software and Packages
 
