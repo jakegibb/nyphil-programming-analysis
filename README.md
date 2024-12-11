@@ -79,7 +79,7 @@ A "requirements.txt" file is included in the repository for ease of reproducing 
 
 ## Data Structure: New York Philharmonic JSON Data
 
-The original JSON data structure from the New York Philharmonic, as document in the enclosed README document, is as follows:
+The original JSON data structure from the New York Philharmonic – as documented in the enclosed README – is as follows:
 ```
 {
   "programs": [
