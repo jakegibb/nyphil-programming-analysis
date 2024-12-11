@@ -24,6 +24,7 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
 
 
 ## Repository Structure
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakegibb/nyphil-programming-analysis/HEAD)
 ### Folder: data_restructuring_and_analysis
 * **File: '_nyphil_performance_history_data_restructuring.ipynb_'**
     * Functions:
