@@ -167,7 +167,7 @@ The following is a list of variables and definitions for each field in the resul
 		<td>repeat_composers</td><td>The number of composers performed within a season that have previously been performed by the orchestra.</td><td>int</td>
 	</tr>
     <tr>
-		<td>new_composers_p</td><td>The proportion of composers performed within a season that are 'new_composers' (i.e. have never been performed by the orchestra).</td><td>int</td>
+		<td>new_composers_p</td><td>The proportion of composers performed within a season that are 'new_composers' (i.e. have never been performed by the orchestra).</td><td>float</td>
 	</tr>
     <tr>
 		<td>repeat_composers_p</td><td>The proportion of composers performed within a season that are 'repeat_composers' (i.e. have previously been performed by the orchestra).</td><td>int</td>
