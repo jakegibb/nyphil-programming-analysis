@@ -29,7 +29,7 @@ Gibson, J. (2024). New York Philharmonic Programming Analysis: New Works and Com
 A binder environment has been created for this project. Launch the project in binder to run the project's Jupyter Notebooks in an isolated computing environment.
 
 
-Additionally, each notebook has an embed link to open the notebook in Google Colab if that is a preferred environment. However, to run a notebook in Colab, you will need to download the appropriate data source and at it to Colab's "content" folder.
+Additionally, each notebook has an embed link to open the notebook in Google Colab if that is a preferred environment. However, to run a notebook in Colab, you will need to download the appropriate data source and add it to Colab's "content" folder.
 
 
 ## Repository Structure
